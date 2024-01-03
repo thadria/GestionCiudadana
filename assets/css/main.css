@@ -145,6 +145,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
+		vertical-align: middle;
 	}
 
 	h3 {
@@ -152,17 +153,22 @@ input, select, textarea {
 	}
 
 	a {
-		color: #F588EA;
+		color:#860639;
 		text-decoration: underline;
+		font-size: 1.2em;
+		font-weight: 400;
 	}
 
 		a:hover {
-			text-decoration: none;
+			color:#ffffff;
+			background-color:#7b7b7b;
 		}
 
-	br.clear {
+		br.clear {
 		clear: both;
 	}
+
+	
 
 	hr {
 		border: 0;
@@ -1514,7 +1520,8 @@ input, select, textarea {
 		}
 
 		table th {
-			text-align: left;
+			text-align: center;
+			vertical-align: middle;
 			padding: 0.5em 1em 0.5em 1em;
 			font-weight: 700;
 			margin: 0 0 1em 0;
@@ -2220,7 +2227,12 @@ input, select, textarea {
 		}
 
 		#intro h2 {
-			font-size: 1.75em;
+			font-size: 1.75em;			
+		}
+
+		#intro h3 {
+			vertical-align:baseline;
+			color:#fff;
 		}
 
 		#intro p {
@@ -2264,6 +2276,16 @@ input, select, textarea {
 			margin: 0;
 		}
 
+		#intro a {
+			color: #fff;
+		}
+
+			#intro a:hover {
+				color: #FFD700;
+			}
+
+
+
 /* Main */
 
 	#main {
@@ -2287,6 +2309,8 @@ input, select, textarea {
 		#main .major h2 {
 			background: #f7f7f7 url("images/bg02.png");
 		}
+	
+	
 
 /* Footer */
 
